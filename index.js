@@ -28,3 +28,9 @@ convertBtn.addEventListener("click", function(){
         `    
     }
 })
+
+inputEl.addEventListener("keypress", function(e){
+    if(e.key === "Enter"){
+        convertBtn.click()
+    }
+})
