@@ -65,6 +65,7 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 5px;
     color: #3D3D3D;
     font-weight: 600;
+    font-size: 1.5rem;
 }
 
 #results-container {
